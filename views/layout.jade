@@ -1,0 +1,32 @@
+doctype html
+html(lang='en', ng-app="myApp")
+  head
+    title= title
+    link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel="stylesheet" href='/bower_components/material-design-lite/material.min.css')
+    link(rel="stylesheet" href='/stylesheets/material.min.css')
+    script(src='/bower_components/angular/angular.js')
+    script(src='/javascripts/app.js')
+  body
+    .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+      header.mdl-layout__header
+        .mdl-layout__header-row
+          span.mdl-layout-title Title
+          .mdl-layout-spacer
+          nav.mdl-navigation.mdl-layout--large-screen-only
+            a.mdl-navigation__link(href='') Link
+            a.mdl-navigation__link(href='') Link
+            a.mdl-navigation__link(href='') Link
+            a.mdl-navigation__link(href='') Link
+      .mdl-layout__drawer
+        span.mdl-layout-title Title
+        nav.mdl-navigation
+          a.mdl-navigation__link(href='') Link
+          a.mdl-navigation__link(href='') Link
+          a.mdl-navigation__link(href='') Link
+          a.mdl-navigation__link(href='') Link
+      main.mdl-layout__content
+        .page-content
+          block content
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(defer src='/bower_components/material-design-lite/material.min.js')

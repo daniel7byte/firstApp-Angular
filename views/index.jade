@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.mdl-grid
+    div.mdl-cell.mdl-cell--12
+      ul(ng-controller='#{appController}')
+        li(ng-repeat='user in users')
+          p {{ user.name }}
+            strong  {{ user.phoneNumber }}

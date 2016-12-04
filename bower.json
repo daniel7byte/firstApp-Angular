@@ -1,0 +1,23 @@
+{
+  "name": "firstApp-Angular",
+  "description": "",
+  "directory": "public/vendor",
+  "main": "",
+  "authors": [
+    "Jose Daniel Posso Garcia <daniel7byte@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "material-design-lite": "^1.2.1",
+    "angular": "^1.5.9"
+  }
+}
